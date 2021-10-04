@@ -1,0 +1,16 @@
+{{!-- I pledge my honor that I have abided by the Stevens Honor System. --}}
+<link href="../public/site.css" rel="stylesheet" type="text/css" />
+<h1>Show Finder</h1>
+      <main>
+          <p>
+              This website can be used to find shows by search term.
+              By submimtting through the form on http://localhost:3000, the list of relevant shows will be retrived
+              from the TV Maze API and displayed.
+          </p>
+<form action="/search" method="POST" class="form">
+    <label for="form">
+        <input type="text" id="form" name="searchTerm"/>
+    </label>
+    <button class="form" type="submit">submit</button>
+</form>
+</main>
