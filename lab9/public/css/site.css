@@ -1,0 +1,62 @@
+/* I pledge my honor that I have abided by the Stevens Honor System. */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 236, 216);
+}
+
+h1 {
+    font-size: 300%;
+    color: cornflowerblue;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+header{
+    border-style: dotted;
+    border-color: darkolivegreen;
+    padding-left: 10px;
+}
+
+footer{
+    color: rgb(71, 94, 71);
+    font-size: large;
+}
+
+form{
+    padding: 10px 10px 10px 0px;
+}
+
+input{
+    height: 35px;
+    width: 200px;
+    font-size: larger;
+}
+
+button {
+    background-color:coral;
+    color: white;
+    height: 35px;
+    width: 75px;
+}
+
+#error{
+    color: darkred;
+    font-weight: bold;
+}
+
+li {
+    list-style:square;
+    font-size: larger;
+    font-weight:bold;
+}
+
+.is-prime {
+    color: #00E676
+}
+
+.not-prime {
+    color: #FF3D00
+}
+
+
