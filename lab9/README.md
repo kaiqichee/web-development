@@ -1,1 +1,1 @@
-Practice in Handlebars and routes.
+Practice in Handlebars, CSS, and JS scripts.
