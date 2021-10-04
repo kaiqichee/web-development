@@ -1,1 +1,1 @@
-
+Practice in ajax.
