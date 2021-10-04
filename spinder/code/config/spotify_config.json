@@ -1,0 +1,10 @@
+{
+    "spotifyConfig" : {
+        "client_id" : "f6b9490f600c48ef852077624059a9be",
+        "client_secret" : "eefce15d0ad04529a2f2e9658abfbfdf",
+        "redirect_uri" : "http://localhost:3000/spotify/callback",
+        "scope" : "user-read-private user-read-email user-top-read",
+        "refresh_token_url" : "https://accounts.spotify.com/api/token",  
+        "saltRounds" : 16
+    }
+}
