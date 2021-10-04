@@ -1,0 +1,89 @@
+/* I pledge my honor that I have abided by the Stevens Honor System. */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 300%;
+    color: darkolivegreen;
+    font-weight: bold;
+    text-decoration: wavy underline;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    color:whitesmoke;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button {
+    background-color:coral;
+    color: white;
+}
+
+main {
+    font-size: large;
+    border-width: 100px;
+    border-style:groove;
+    border-radius: 20%;
+    border-color: cadetblue;
+    padding: 15px;
+    background-color:#a2b86ede ;
+}
+
+body{
+    border-width: 50px;
+    border-style: double;
+    border-color: coral;
+    border-radius: 10%;
+    padding: 20px;
+    background-color:#90ac51c9 ;
+}
+
+.imgTxt {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    border: whitesmoke;
+    border-style: double;
+    padding: 10px;   
+}
+
+dl {
+    padding: 20px;
+    color: white;
+}
+
+.indShow {
+    list-style-type:none;
+}
+
+.indShow li::before {
+    content: "\25CE";
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    color: coral;
+}
+a:active{
+    color:olive;
+
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
