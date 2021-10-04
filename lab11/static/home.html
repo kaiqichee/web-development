@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TV Show Finder</title>
+    </head>
+    <body>
+        <header>
+            <h1>TV Show Finder</h1>
+        </header>
+        <div id="error" hidden></div>
+        <form id="searchForm">
+            <label for="search_term">
+                <input type="text" id="search_term">
+            </label>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <ul id="showList" hidden></ul>
+        <div id="show" hidden></div>
+        
+        <a href="/" id="homeLink" hidden>Back to All Shows</a>
+        <footer>Kaiqi Chee 10451613</footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="public/shows.js" async defer></script>
+    </body>
+</html>
